@@ -52,8 +52,9 @@ export default function Home() {
       >
         <div className={styles.mico}>
           <div className="overflow-hidden">
-            <motion.h1 variants={textVariant}>Codeprint N001</motion.h1>
+            <motion.h1 variants={textVariant}>Parallax Scroll N001</motion.h1>
           </div>
+
           <ul>
             <li className="relative">
               <TransitionLink

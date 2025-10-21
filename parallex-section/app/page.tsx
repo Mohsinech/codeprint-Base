@@ -57,7 +57,7 @@ export default function Home() {
           <ul>
             <li className="relative">
               <TransitionLink
-                href="/parallex-section/second-page"
+                href="https://github.com/Mohsinech/codeprint-Base"
                 label="SOURCE CODE ↗"
               />
             </li>

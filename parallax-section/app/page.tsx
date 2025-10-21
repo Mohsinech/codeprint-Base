@@ -50,7 +50,15 @@ export default function Home() {
         viewport={{ once: true, amount: 0.2 }}
         className="h-screen"
       >
-        <div className={styles.mico}>
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{
+            duration: 2,
+            ease: [0.87, 0.13, 0, 1],
+          }}
+          className={styles.mico}
+        >
           <div className="overflow-hidden">
             <motion.h1 variants={textVariant}>Parallax Scroll N001</motion.h1>
           </div>
@@ -63,7 +71,7 @@ export default function Home() {
               />
             </li>
           </ul>
-        </div>
+        </motion.div>
       </motion.section>
 
       {/* === Showcase 1 (image left only) === */}

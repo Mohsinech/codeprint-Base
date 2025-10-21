@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+body {
+  background-color: #fff;
+}
+
+/* Fonts */
+
+/* Neue Montreal */
+@font-face {
+  font-family: "mon";
+  src: url("/assets/fonts/montreal/NeueMontreal-Bold.woff2");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "mon";
+  src: url("/assets/fonts/montreal/NeueMontreal-Medium.woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "mon";
+  src: url("/assets/fonts/montreal/NeueMontreal-Regular.woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "mon";
+  src: url("/assets/fonts/montreal/NeueMontreal-Light.woff2");
+  font-weight: 200;
+  font-style: normal;
+}
+
+/* Gebuk */
+
+@font-face {
+  font-family: "gebuk";
+  src: url("/assets/fonts/gebuk/gebuk-regular.woff2");
+  font-weight: 400;
+}
+
+/* PP Mori */
+@font-face {
+  font-family: "mori";
+  src: url("/assets/fonts/mori/PPMori-Extralight.woff2");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "mori";
+  src: url("/assets/fonts/mori/PPMori-Regular.woff2");
+  font-weight: 500;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
